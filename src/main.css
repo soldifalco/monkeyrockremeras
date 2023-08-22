@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@600;700&family=Anton&family=Arima:wght@700&family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Mulish:wght@400;700&family=Neucha&family=Oxygen:wght@300;400;700&family=Phudu:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100&family=Sedgwick+Ave+Display&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-main: #c56cee;
+  --clr-main-light: #efdaf9;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.574);
+}
+
+.container {
+  max-width: 1140px;
+  padding-inline: 1.5rem;
+  margin: 0 auto;
+}
+
+.main-title {
+  margin-top: 2rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 2px black;
+  background-color: #c56cee;
+  border-radius: 30px;
+  margin: 0.5rem;
+}
+
+.banner img {
+  width: 150px;
+  margin: 1rem;
+  border-radius: 40px;
+}
+
+.banner h4 {
+  color: yellow;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 1.3rem;
+  text-shadow: 2px -2px 2px black;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.navbar {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--clr-main);
+  border-bottom: 3px solid black;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar h1 {
+  color: rgb(245, 245, 113);
+  font-weight: 600;
+  text-shadow: 2px -2px 2px black;
+  letter-spacing: 0.1rem;
+  font-family: "Neucha", cursive;
+}
+
+.navbar h1:hover {
+  color: bisque;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 100px;
+  border-radius: 40px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: rgb(245, 245, 113);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding-block: 2rem;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.producto > div {
+  padding: 1rem;
+  background-color: #c56cee;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.producto > img {
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+}
+
+.producto .ver-mas {
+  text-decoration: none;
+  background-color: fuchsia;
+  color: white;
+  padding: 0.5rem;
+  width: max-content;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+.producto .ver-mas:hover {
+  background-color: black;
+  color: white;
+}
+
+.producto-detalle {
+  padding-block: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  background-color: #c56cee;
+  margin: 1rem;
+}
+
+.producto-detalle img {
+  width: 100%;
+}
+
+.producto-detalle-info h3 {
+  font-size: 2rem;
+}
+
+.titulo {
+  color: yellow;
+  font-size: 1.2rem;
+  text-shadow: 1px -1px 1px black;
+  font-family: "Trebuchet MS";
+}
+
+.descripcion {
+  font-weight: bold;
+  margin: 0.2rem;
+  font-family: "Trebuchet MS";
+}
+
+.categoria {
+  font-size: 0.8rem;
+  color: black;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-family: "Trebuchet MS";
+}
+
+.precio {
+  color: yellow;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-family: "Trebuchet MS";
+  text-shadow: 1px 1px 1px black;
+}
+
+.item-count {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: yellow;
+  font-weight: 500;
+  font-family: "Trebuchet MS";
+  text-shadow: 1px 1px 1px black;
+}
+
+.item-count button,
+.agregar-al-carrito,
+.enviar {
+  background-color: fuchsia;
+  border: 0;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  border: 2px solid var(--clr-main);
+  transition: 0.2s;
+}
+
+.item-count button:hover,
+.agregar-al-carrito:hover,
+.enviar:hover {
+  background-color: white;
+  color: black;
+}
+
+.agregar-al-carrito,
+.enviar {
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.formulario input {
+  padding: 0.5rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 2px solid var(--clr-main);
+  outline: 2px solid var(--clr-main);
+}
+
+/* media queries */
