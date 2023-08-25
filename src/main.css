@@ -261,3 +261,11 @@ body {
 }
 
 /* media queries */
+
+@media (max-width: 480px) {
+  .productos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
