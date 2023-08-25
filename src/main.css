@@ -43,11 +43,10 @@ body {
 
 .banner p {
   color: yellow;
-  font-family: "Trebuchet MS";
+  font-family: "Courier New";
   font-size: 1.2rem;
   text-shadow: 1px 1px 1px black;
-  font-weight: 800;
-  letter-spacing: 0.1rem;
+  font-weight: bold;
 }
 
 .navbar {

@@ -103,7 +103,17 @@ const Carrito = () => {
           </Link>
         </>
       ) : (
-        <h2>El carrito está vacío :(</h2>
+        <h2
+          style={{
+            margin: "2rem",
+            color: "yellow",
+            textShadow: "1px 1px 1px black",
+            padding: "2rem",
+            fontFamily: "Courier New",
+          }}
+        >
+          El carrito está vacío 🙊
+        </h2>
       )}
     </div>
   );
