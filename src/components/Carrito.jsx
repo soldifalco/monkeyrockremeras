@@ -81,8 +81,10 @@ const Carrito = () => {
           <button
             style={{
               margin: "1rem",
-              padding: "0.3rem",
+              padding: "0.5rem",
               borderRadius: "30px",
+              backgroundColor: "fuchsia",
+              color: "white",
               border: "0",
               cursor: "pointer",
             }}
@@ -92,9 +94,10 @@ const Carrito = () => {
           </button>
           <Link
             style={{
-              backgroundColor: "white",
+              backgroundColor: "fuchsia",
+              color: "white",
               textDecoration: "none",
-              padding: "0.3rem",
+              padding: "0.5rem",
               borderRadius: "30px",
             }}
             to="/checkout"

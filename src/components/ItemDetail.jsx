@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { toCapital } from "../helpers/toCapital";
 import ItemCount from "./ItemCount";
 import { CartContext } from "../context/CartContext";
+import Swal from "sweetalert2";
 
 const ItemDetail = ({ item }) => {
   const { carrito, agregarAlCarrito } = useContext(CartContext);
@@ -32,6 +33,18 @@ const ItemDetail = ({ item }) => {
             handleRestar={handleRestar}
             handleAgregar={() => {
               agregarAlCarrito(item, cantidad);
+
+              Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Producto agregado",
+                background: " fuchsia",
+                iconColor: "pink",
+                color: "white",
+                confirmButtonColor: "pink",
+                timer: 1500,
+                toast: true,
+              });
             }}
           />
         </div>

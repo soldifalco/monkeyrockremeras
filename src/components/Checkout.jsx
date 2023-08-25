@@ -46,7 +46,7 @@ const Checkout = () => {
             letterSpacing: "0.2rem",
           }}
         >
-          Muchas gracias por tu compra!
+          Muchas gracias por tu compra! 🙈🐵
         </h2>
         <p
           style={{
