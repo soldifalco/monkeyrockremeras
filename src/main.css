@@ -41,12 +41,12 @@ body {
   border-radius: 40px;
 }
 
-.banner h4 {
+.banner p {
   color: yellow;
-  font-family: "Sedgwick Ave Display", cursive;
-  font-size: 1.3rem;
-  text-shadow: 2px -2px 2px black;
-  font-weight: 500;
+  font-family: "Trebuchet MS";
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 800;
   letter-spacing: 0.1rem;
 }
 
@@ -267,5 +267,25 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .banner h4 {
+    font-size: 1rem;
   }
 }

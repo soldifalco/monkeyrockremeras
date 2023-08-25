@@ -5,9 +5,9 @@ const ItemList = ({ productos, titulo }) => {
   return (
     <div className="container">
       <div className="banner">
-        <h4>Unite al estilo monkey</h4>
+        <p>Unite al estilo monkey</p>
         <img src={logo} alt="logo" />
-        <h4>Remeras para todas las edades y de todos los talles</h4>
+        <p>Remeras para todas las edades y de todos los talles</p>
       </div>
 
       <div className="productos">
