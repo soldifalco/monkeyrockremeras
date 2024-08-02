@@ -38,7 +38,7 @@ const ItemDetail = ({ item }) => {
                 position: "center",
                 icon: "success",
                 title: "Producto agregado",
-                background: " fuchsia",
+                background: "  rgba(0, 0, 0, 0.191)",
                 iconColor: "pink",
                 color: "white",
                 confirmButtonColor: "pink",
