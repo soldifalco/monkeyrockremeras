@@ -39,9 +39,9 @@ const ItemDetail = ({ item }) => {
                 icon: "success",
                 title: "Producto agregado",
                 background: "  blueviolet",
-                iconColor: "pink",
+                iconColor: "yellow",
                 color: "white",
-                confirmButtonColor: "pink",
+                confirmButtonColor: "yellow",
                 timer: 1500,
                 toast: true,
               });
