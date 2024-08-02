@@ -154,10 +154,10 @@ body {
 }
 
 .categoria {
-  font-size: 0.8rem;
-  color: var(--clr-main);
+  font-size: 1rem;
+  color: white;
   margin-top: 1rem;
-  font-weight: 500;
+  font-weight: 800;
   font-family: "Times New Roman", Times, serif;
 }
 
