@@ -41,7 +41,7 @@ const ItemDetail = ({ item }) => {
                 background: "  blueviolet",
                 iconColor: "yellow",
                 color: "white",
-                confirmButtonColor: "yellow",
+                confirmButtonColor: "wheat",
                 timer: 1500,
                 toast: true,
               });
