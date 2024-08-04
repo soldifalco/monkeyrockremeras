@@ -203,7 +203,7 @@ body {
 .item-count button:hover,
 .agregar-al-carrito:hover,
 .enviar:hover {
-  color: white;
+  color: red;
 }
 
 .agregar-al-carrito,
