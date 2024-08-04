@@ -13,7 +13,7 @@ const Carrito = () => {
     <div
       className="container"
       style={{
-        backgroundColor: "#c56cee",
+        backgroundColor: "bisque",
         textAlign: "center",
       }}
     >
