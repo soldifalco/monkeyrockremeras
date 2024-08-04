@@ -46,9 +46,9 @@ const Carrito = () => {
           <p
             style={{
               margin: "0.6rem",
-              fontFamily: "Trebuchet MS",
+              fontFamily: "'Courier New', Courier, monospace",
               textShadow: "1px 1px 1px black",
-              color: "yellow",
+              color: "white",
             }}
           >
             Precio total: ${prod.precio * prod.cantidad}
@@ -56,10 +56,10 @@ const Carrito = () => {
           <p
             style={{
               margin: "0.6rem",
-              fontFamily: "Trebuchet MS",
+              fontFamily: "'Courier New', Courier, monospace",
               textShadow: "1px 1px 1px black",
-              color: "yellow",
-              backgroundColor: "",
+              color: "white",
+              backgroundColor: "rgb(152, 115, 152)",
             }}
           >
             Cantidad: {prod.cantidad}
