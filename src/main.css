@@ -109,8 +109,8 @@ body {
 
 .producto .ver-mas {
   text-decoration: none;
-  background-color: var(--clr-main);
-  color: var(--clr-main-light);
+  background-color: wheat;
+  color: white;
   padding: 0.5rem;
   width: max-content;
   border-radius: 0.5rem;
