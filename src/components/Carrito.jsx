@@ -13,7 +13,7 @@ const Carrito = () => {
     <div
       className="container"
       style={{
-        backgroundColor: "bisque",
+        backgroundColor: "rgb(152, 115, 152)",
         textAlign: "center",
       }}
     >
@@ -22,8 +22,8 @@ const Carrito = () => {
           <br />
           <h3
             style={{
-              color: "yellow",
-              fontFamily: "Neucha",
+              color: "white",
+              fontFamily: "'Courier New', Courier, monospace",
               textShadow: "1px 1px 1px black",
               fontSize: "1.3rem",
               letterSpacing: "0.3rem",
@@ -38,7 +38,7 @@ const Carrito = () => {
               margin: "0.6rem",
               fontFamily: "Trebuchet MS",
               textShadow: "1px 1px 1px black",
-              color: "yellow",
+              color: "white",
             }}
           >
             Precio unitario: ${prod.precio}
