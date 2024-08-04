@@ -31,7 +31,7 @@ const Checkout = () => {
     return (
       <div
         style={{
-          backgroundColor: "bisque",
+          backgroundColor: "black";
           textAlign: "center",
           margin: "1rem",
         }}
